@@ -64,3 +64,87 @@ AgroNomics provides a comprehensive web-based ML tool that:
 
 ## 🏗️ System Architecture
 
+User Input → Flask Backend → ML Model → Price Prediction → Web Interface
+↓ ↓ ↓ ↓ ↓
+Location, Data Processing Random Forest Predicted Visual Display
+Commodity, & Validation Regression Price & Results
+Season
+
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Python 3.11+ 
+- pip package manager
+
+## 📁 Project Structure
+
+## 🎮 Usage
+
+### Web Interface
+1. Visit the homepage
+2. Select your **State** and **District**
+3. Choose **Commodity Category** and specific **Crop**
+4. Select **Month** and **Season**
+5. Click **"Predict Price"**
+6. View predicted modal price in ₹/quintal
+
+### API Endpoint
+
+**Response:**
+
+## 🧠 Model Details
+
+- **Algorithm**: Random Forest Regression with fallback prediction system
+- **Features**: State, District, Commodity, Category, Month, Season
+- **Encoding**: One-Hot Encoding for categorical variables
+- **Fallback System**: Rule-based predictions when ML models unavailable
+- **Accuracy**: Optimized for Indian agricultural patterns
+
+## 📈 Market Impact
+
+### Target Market Size
+- **Global AgriTech**: $30.6B (2024) → $79.7B (2030)
+- **India AgriTech**: $2B (2023) → $24-30B (2027)
+- **Growth Rate**: ~50% CAGR in India
+
+### Benefits
+- ✅ Reduces farmer losses from price volatility
+- ✅ Enables data-driven selling decisions
+- ✅ Decreases dependency on middlemen
+- ✅ Promotes precision agriculture adoption
+
+## 🔧 Troubleshooting
+
+### Common Issues
+
+**Model Loading Error**
+
+**Missing Templates**
+- Ensure all HTML files are in the `templates/` directory
+
+**Port Already in Use**
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/enhancement`)
+3. Commit changes (`git commit -am 'Add new feature'`)
+4. Push to branch (`git push origin feature/enhancement`)
+5. Create Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👥 Team Celebi
+
+| Name | Role | Contact |
+|------|------|---------|
+| **Vaibhavi Srivastava** | ML Developer | [LinkedIn](https://linkedin.com/in/vaibhavi-srivastava-99a572348) • [GitHub](https://github.com/archangel2006) |
+| **Sangini Garg** | Web Developer | [LinkedIn](https://linkedin.com/in/sangini-garg) • [GitHub](https://github.com/Sanginiux) |
+
+
+
+
+
